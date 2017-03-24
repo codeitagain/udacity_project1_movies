@@ -1,3 +1,7 @@
+""" The file media.py defines the classes used in this application
+that is executed by running the file entertainment_center.py.
+"""
+
 import webbrowser
 
 class Movie():
@@ -12,7 +16,7 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_youtube_url = trailer_youtube
         
-    def show_trailer(self):
+    def show_trailer(self): 
         """Movie.show_trailer opens the given url address for
            the movie trailer."""    
         webbrowser.open(self.trailer_youtube_url)
