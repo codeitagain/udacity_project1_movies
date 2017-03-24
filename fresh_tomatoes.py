@@ -1,3 +1,8 @@
+""" The file fresh_tomatoes.py is used to create an HTML document
+to display the available information about our movies.  Once the 
+HTML document is created, this file opens the new HTML document
+in a Web browser. """
+
 import webbrowser
 import os
 import re
